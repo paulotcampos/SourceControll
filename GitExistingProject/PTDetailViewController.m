@@ -33,6 +33,7 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+    self.view.backgroundColor = [UIColor greenColor];
 }
 
 - (void)viewDidLoad
