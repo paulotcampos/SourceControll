@@ -117,12 +117,8 @@
 			children = (
 				D89D5C7B1986C68C0035F18B /* PTAppDelegate.h */,
 				D89D5C7C1986C68C0035F18B /* PTAppDelegate.m */,
-				D89D5C7E1986C68C0035F18B /* Main.storyboard */,
-				D89D5C811986C68C0035F18B /* PTMasterViewController.h */,
-				D89D5C821986C68C0035F18B /* PTMasterViewController.m */,
-				D89D5C841986C68C0035F18B /* PTDetailViewController.h */,
-				D89D5C851986C68C0035F18B /* PTDetailViewController.m */,
-				D89D5C871986C68C0035F18B /* Images.xcassets */,
+				D8CA8DA01986D31B005300B0 /* Resources */,
+				D8CA8D9F1986D2B0005300B0 /* ViewControllers */,
 				D89D5C731986C68C0035F18B /* Supporting Files */,
 			);
 			path = GitExistingProject;
@@ -155,6 +151,26 @@
 				D89D5C971986C68C0035F18B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8CA8D9F1986D2B0005300B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D89D5C811986C68C0035F18B /* PTMasterViewController.h */,
+				D89D5C821986C68C0035F18B /* PTMasterViewController.m */,
+				D89D5C841986C68C0035F18B /* PTDetailViewController.h */,
+				D89D5C851986C68C0035F18B /* PTDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8CA8DA01986D31B005300B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D89D5C7E1986C68C0035F18B /* Main.storyboard */,
+				D89D5C871986C68C0035F18B /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +479,7 @@
 				D89D5CA01986C68C0035F18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D89D5CA11986C68C0035F18B /* Build configuration list for PBXNativeTarget "GitExistingProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				D89D5CA31986C68C0035F18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
